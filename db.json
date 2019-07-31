@@ -1,7 +1,11 @@
 {
-		"email": "chris+2@omnigroup.com",
-		"username": "chris-2",
-		"status": "active"
-	},
-	{ "email": "chris@omnigroup.com", "username": null, "status": "pending" },
-	{ "email": "chris+4@omnigroup.com", "username": null, "status": "pending" }
+	"/data": {
+		"get": {
+			"data": 
+			[
+				{ "email": "chris+2@omnigroup.com", "username": "chris-2", "status": "active" },
+				{ "email": "chris@omnigroup.com", "username": null, "status": "pending" },
+				{ "email": "chris+4@omnigroup.com", "username": null, "status": "pending" }]
+		}
+	}
+}
